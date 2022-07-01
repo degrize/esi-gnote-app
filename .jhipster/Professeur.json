@@ -1,0 +1,30 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065327",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "professeur",
+  "fields": [
+    {
+      "fieldName": "nomProf",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "prenomProf",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "contactProf",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Professeur",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
