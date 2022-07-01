@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065332",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "inspecteur",
+  "fields": [
+    {
+      "fieldName": "nomInspecteur",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"],
+      "javadoc": "The firstname attribute."
+    },
+    {
+      "fieldName": "prenomInspecteur",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contactInspecteur",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "The Employee entity.",
+  "jpaMetamodelFiltering": false,
+  "name": "Inspecteur",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

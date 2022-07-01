@@ -1,0 +1,20 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065334",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "ue",
+  "fields": [
+    {
+      "fieldName": "nomUE",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UE",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

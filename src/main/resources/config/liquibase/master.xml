@@ -15,7 +15,30 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065322_added_entity_AnneeScolaire.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065323_added_entity_Planche.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065324_added_entity_Semestre.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065325_added_entity_Note.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065326_added_entity_Bulletin.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065327_added_entity_Professeur.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065328_added_entity_Filiere.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065329_added_entity_Classe.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065330_added_entity_Etudiant.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065331_added_entity_Absence.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065332_added_entity_Inspecteur.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065333_added_entity_EC.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065334_added_entity_UE.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065335_added_entity_Encadreur.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065336_added_entity_Horaire.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065337_added_entity_Soutenance.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065338_added_entity_Salle.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065339_added_entity_Jury.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065340_added_entity_Cycle.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065341_added_entity_DemandeInspecteurEtudiant.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065342_added_entity_DemandeInspecteurDE.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220701065343_added_entity_RecupererBulletin.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20220701065331_added_entity_constraints_Absence.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
