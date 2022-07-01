@@ -1,0 +1,26 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065333",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "ec",
+  "fields": [
+    {
+      "fieldName": "nomEC",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "coeff",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "EC",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

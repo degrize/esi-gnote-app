@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065330",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "etudiant",
+  "fields": [
+    {
+      "fieldName": "matriculeET",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nomET",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "prenomET",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "photo",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "numeroParent",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numeroTuteur",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contactET",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Etudiant",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
