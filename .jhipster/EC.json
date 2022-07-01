@@ -1,0 +1,54 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065842",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "ec",
+  "fields": [
+    {
+      "fieldName": "nomEC",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "coeff",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "EC",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "uE",
+      "otherEntityRelationshipName": "eC",
+      "relationshipName": "uE",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "professeur",
+      "otherEntityRelationshipName": "eC",
+      "ownerSide": false,
+      "relationshipName": "professeur",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "note",
+      "otherEntityRelationshipName": "eC",
+      "ownerSide": false,
+      "relationshipName": "note",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "classe",
+      "otherEntityRelationshipName": "eC",
+      "ownerSide": false,
+      "relationshipName": "classe",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}
