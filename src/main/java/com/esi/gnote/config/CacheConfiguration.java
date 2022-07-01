@@ -48,6 +48,28 @@ public class CacheConfiguration {
             createCache(cm, com.esi.gnote.domain.User.class.getName());
             createCache(cm, com.esi.gnote.domain.Authority.class.getName());
             createCache(cm, com.esi.gnote.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.esi.gnote.domain.AnneeScolaire.class.getName());
+            createCache(cm, com.esi.gnote.domain.Planche.class.getName());
+            createCache(cm, com.esi.gnote.domain.Semestre.class.getName());
+            createCache(cm, com.esi.gnote.domain.Note.class.getName());
+            createCache(cm, com.esi.gnote.domain.Bulletin.class.getName());
+            createCache(cm, com.esi.gnote.domain.Professeur.class.getName());
+            createCache(cm, com.esi.gnote.domain.Filiere.class.getName());
+            createCache(cm, com.esi.gnote.domain.Classe.class.getName());
+            createCache(cm, com.esi.gnote.domain.Etudiant.class.getName());
+            createCache(cm, com.esi.gnote.domain.Absence.class.getName());
+            createCache(cm, com.esi.gnote.domain.Inspecteur.class.getName());
+            createCache(cm, com.esi.gnote.domain.EC.class.getName());
+            createCache(cm, com.esi.gnote.domain.UE.class.getName());
+            createCache(cm, com.esi.gnote.domain.Encadreur.class.getName());
+            createCache(cm, com.esi.gnote.domain.Horaire.class.getName());
+            createCache(cm, com.esi.gnote.domain.Soutenance.class.getName());
+            createCache(cm, com.esi.gnote.domain.Salle.class.getName());
+            createCache(cm, com.esi.gnote.domain.Jury.class.getName());
+            createCache(cm, com.esi.gnote.domain.Cycle.class.getName());
+            createCache(cm, com.esi.gnote.domain.DemandeInspecteurEtudiant.class.getName());
+            createCache(cm, com.esi.gnote.domain.DemandeInspecteurDE.class.getName());
+            createCache(cm, com.esi.gnote.domain.RecupererBulletin.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

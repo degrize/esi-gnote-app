@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065337",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "soutenance",
+  "fields": [
+    {
+      "fieldName": "typeSout",
+      "fieldType": "TypeSoutenance",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "PFE,UP_PRO,STAGE_APPLICATION,STAGE_IMERTION,BE,AUTRE"
+    },
+    {
+      "fieldName": "themeSout",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "noteSout",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Soutenance",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
