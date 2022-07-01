@@ -1,0 +1,27 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065658",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "note",
+  "fields": [
+    {
+      "fieldName": "note",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "typeNote",
+      "fieldType": "TypeNote",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "DEVOIR_SUR_TABLE,INTERROGATION,PROJET,DEVOIR_DE_MAISON,PARTICIPATION"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Note",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
