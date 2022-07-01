@@ -1,0 +1,27 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065541",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "recuperer_bulletin",
+  "fields": [
+    {
+      "fieldName": "signatureEleve",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "bulletinScanne",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "RecupererBulletin",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

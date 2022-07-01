@@ -1,0 +1,26 @@
+{
+  "gnoteApplicationApp": {
+    "eC": {
+      "home": {
+        "title": "ECS",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo EC",
+        "createOrEditLabel": "Crear o editar EC",
+        "notFound": "Ningún ECS encontrado"
+      },
+      "created": "Un nuevo EC ha sido creado con el identificador {{ param }}",
+      "updated": "Un EC ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un EC ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar EC {{ id }}?"
+      },
+      "detail": {
+        "title": "EC"
+      },
+      "id": "ID",
+      "nomEC": "Nom EC",
+      "coeff": "Coeff",
+      "professeur": "Professeur"
+    }
+  }
+}

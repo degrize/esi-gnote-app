@@ -1,0 +1,25 @@
+{
+  "gnoteApplicationApp": {
+    "uE": {
+      "home": {
+        "title": "UES",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo UE",
+        "createOrEditLabel": "Crear o editar UE",
+        "notFound": "Ningún UES encontrado"
+      },
+      "created": "Un nuevo UE ha sido creado con el identificador {{ param }}",
+      "updated": "Un UE ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un UE ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar UE {{ id }}?"
+      },
+      "detail": {
+        "title": "UE"
+      },
+      "id": "ID",
+      "nomUE": "Nom UE",
+      "filiere": "Filiere"
+    }
+  }
+}

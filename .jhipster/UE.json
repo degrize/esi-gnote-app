@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065532",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "ue",
+  "fields": [
+    {
+      "fieldName": "nomUE",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UE",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "filiere",
+      "otherEntityRelationshipName": "uE",
+      "ownerSide": false,
+      "relationshipName": "filiere",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}
