@@ -1,0 +1,23 @@
+{
+  "applications": "*",
+  "changelogDate": "20220701065537",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "jury",
+  "fields": [
+    {
+      "fieldName": "presidentJury",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"],
+      "javadoc": "The firstname attribute."
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "The Jury entity.",
+  "jpaMetamodelFiltering": false,
+  "name": "Jury",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
